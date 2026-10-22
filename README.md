@@ -1,27 +1,23 @@
 # MLA Fitness Training
 
-Site vitrine statique en HTML, CSS et JavaScript, prêt pour GitHub Pages.
+Site vitrine statique de l'association MLA Fitness Training, à Montfort-l'Amaury. Le site présente l'objet de l'association, le Cross Training, le Run&Cross (sortie en forêt avec des exercices de Cross Training tous les 2 km), son horaire du vendredi de 6 h 30 à 7 h 30, les tarifs annuels et les coordonnées de l'association. La devise « Cours à ton rythme, accélère si tu peux, marche s'il le faut… Mais on termine ensemble » est propre au Run&Cross.
 
-## Avant publication
+## Fichiers
 
-- Remplacer les textes provisoires par l'histoire et les informations exactes de l'association.
-- Confirmer les activités, les publics accueillis, les horaires et les lieux.
-- Ajouter les tarifs, modalités d'adhésion et coordonnées réelles.
-- Remplacer la photo de démonstration par une image autorisée de l'association.
-- Mettre à jour le titre et la description SEO avec la commune et les activités exactes.
-
-Les mentions « à préciser » et « proposition à valider » sont des contenus de travail et doivent être revus avant la mise en ligne.
+- `index.html` : contenu et structure du site.
+- `confidentialite.html` : informations sur les données personnelles.
+- `sitemap.xml` et `robots.txt` : aide à l’exploration et au référencement du site public.
+- `styles.css` : styles adaptatifs pour mobile et ordinateur.
+- `script.js` : navigation mobile et année du copyright.
+- `assets/logo-rectangle.png` : logo de l'association.
+- `.github/workflows/pages.yml` : déploiement automatique sur GitHub Pages.
 
 ## Déploiement GitHub Pages
 
-Le workflow `.github/workflows/pages.yml` publie automatiquement le site à chaque mise à jour de la branche `main`.
+Le workflow `.github/workflows/pages.yml` publie le site à chaque mise à jour de la branche `main`.
 
-1. Dans le dépôt GitHub, ouvrir **Settings > Pages**.
-2. Choisir **GitHub Actions** comme source de déploiement.
-3. Envoyer les fichiers sur la branche `main` et vérifier l'exécution dans l'onglet **Actions**.
+Dans les paramètres du dépôt, choisir **Settings > Pages > Build and deployment > GitHub Actions**, puis vérifier l'exécution du workflow dans l'onglet **Actions**.
 
-L'adresse du site sera généralement `https://mlafitnesstraining-cell.github.io/Website/`.
+Les horaires, tarifs et coordonnées affichés sont ceux du flyer et des informations associatives fournis. Le siège social et le lieu des séances sont indiqués séparément. Vérifier que les horaires et tarifs sont toujours à jour avant chaque saison.
 
-## Référencement local
-
-Après avoir confirmé le nom, la commune, l'adresse et les coordonnées, compléter les métadonnées de `index.html`, publier le site, puis l'ajouter comme URL à la fiche Google Business Profile. Garder exactement les mêmes coordonnées et horaires sur le site et la fiche Google. Une propriété Google Search Console pourra ensuite être créée pour suivre l'indexation.
+Le site ne charge pas de traceur ni de ressource graphique ou typographique tierce à l’ouverture. Avant publication, l’association doit vérifier l’exactitude de sa dénomination statutaire et de son adresse, les modalités de conservation des journaux techniques de GitHub Pages, et appliquer les durées de conservation indiquées dans `confidentialite.html`.
