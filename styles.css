@@ -93,13 +93,15 @@ h2 { margin-bottom: 0; font-size: clamp(48px, 6vw, 76px); line-height: 0.88; }
 .run-cross-motto p { margin: 6px 0 0; font-family: var(--font-display); font-size: 17px; font-weight: 600; line-height: 1.1; text-transform: uppercase; }
 .run-cross-motto em { color: var(--lime); font-style: normal; }
 .instagram-feature { padding-top: 82px; padding-bottom: 90px; }
-.instagram-feature-content { display: grid; grid-template-columns: 1fr 0.8fr; align-items: center; gap: 8%; margin-top: 30px; }
-.instagram-feature-content h2 { margin-bottom: 18px; }
-.instagram-feature-content h2 em { color: #347da2; font-style: normal; }
-.instagram-feature-content > div:first-child > p { max-width: 380px; color: #5d665e; font-size: 14px; }
+.instagram-feature-intro { display: flex; align-items: end; justify-content: space-between; gap: 32px; margin: 30px 0; }
+.instagram-feature-intro h2 { flex: 0 0 auto; }
+.instagram-feature-intro h2 em { color: #347da2; font-style: normal; }
+.instagram-feature-intro > p { max-width: 380px; margin-bottom: 4px; color: #5d665e; font-size: 14px; }
+.instagram-reels { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.instagram-reel > .text-link { margin-bottom: 14px; }
 .instagram-embed { display: flex; min-height: 150px; flex-direction: column; align-items: flex-start; justify-content: center; gap: 16px; border: 1px solid var(--line); padding: 22px; background: var(--paper-bright); }
 .instagram-embed p { max-width: 440px; margin: 0; color: #5d665e; font-size: 12px; }
-.instagram-embed iframe { display: block; width: min(100%, 400px); height: 711px; border: 0; }
+.instagram-embed iframe { display: block; width: min(100%, 400px); height: 711px; align-self: center; border: 0; }
 .schedule { padding-top: 100px; padding-bottom: 112px; }
 .schedule-layout { display: grid; grid-template-columns: 0.72fr 1.28fr; gap: 9%; margin-top: 37px; }
 .schedule-intro > p { max-width: 315px; margin: 20px 0 22px; color: #5d665e; font-size: 13px; }
@@ -171,7 +173,7 @@ h2 { margin-bottom: 0; font-size: clamp(48px, 6vw, 76px); line-height: 0.88; }
   .hero-index { right: 8%; bottom: 16px; }
   .section-wrap { padding-right: 8%; padding-left: 8%; }
   .intro { padding-top: 76px; padding-bottom: 70px; }
-  .intro-content, .schedule-layout, .contact-content, .instagram-feature-content { grid-template-columns: 1fr; gap: 25px; }
+  .intro-content, .schedule-layout, .contact-content { grid-template-columns: 1fr; gap: 25px; }
   .intro-content { padding: 28px 0 30px; }
   .intro-text { max-width: 520px; }
   .stats-strip div { min-height: 78px; padding-left: 10px; }
@@ -185,6 +187,8 @@ h2 { margin-bottom: 0; font-size: clamp(48px, 6vw, 76px); line-height: 0.88; }
   .activity-item:last-child { border-bottom: 0; }
   .activity-icon { margin-top: 18px; }
   .instagram-feature { padding-top: 68px; padding-bottom: 74px; }
+  .instagram-feature-intro { align-items: flex-start; flex-direction: column; gap: 16px; }
+  .instagram-reels { grid-template-columns: 1fr; gap: 30px; }
   .instagram-embed iframe { height: min(711px, 177.75vw); }
   .schedule { padding-top: 75px; padding-bottom: 78px; }
   .schedule-layout { gap: 40px; margin-top: 28px; }

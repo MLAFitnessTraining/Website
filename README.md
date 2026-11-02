@@ -1,6 +1,6 @@
 # MLA Fitness Training
 
-Site vitrine statique de l'association MLA Fitness Training, à Montfort-l'Amaury. Le site présente l'objet de l'association, le Cross Training, le Run&Cross (départ du 13 place de Nickenich puis sortie en forêt avec des exercices de Cross Training tous les 2 km), son horaire du vendredi de 12 h 15 à 13 h 30, les tarifs annuels et les coordonnées de l'association. Les séances ont lieu au 13 place de Nickenich, 78490 Montfort-l'Amaury. Un Reel Instagram est proposé avec chargement du lecteur uniquement après clic. La devise « Cours à ton rythme, accélère si tu peux, marche s'il le faut… Mais on termine ensemble » est propre au Run&Cross.
+Site vitrine statique de l'association MLA Fitness Training, à Montfort-l'Amaury. Le site présente l'objet de l'association, le Cross Training, le Run&Cross (départ du 13 place de Nickenich puis sortie en forêt avec des exercices de Cross Training tous les 2 km), son horaire du vendredi de 12 h 15 à 13 h 30, les tarifs annuels et les coordonnées de l'association. Les séances ont lieu au 13 place de Nickenich, 78490 Montfort-l'Amaury. Des Reels Instagram sont proposés avec chargement des lecteurs uniquement après clic. La devise « Cours à ton rythme, accélère si tu peux, marche s'il le faut… Mais on termine ensemble » est propre au Run&Cross.
 
 ## Fichiers
 
