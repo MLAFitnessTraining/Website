@@ -17,3 +17,18 @@ navigation.addEventListener('click', (event) => {
 });
 
 document.querySelector('#year').textContent = new Date().getFullYear();
+
+document.querySelector('#load-instagram').addEventListener('click', () => {
+  const embed = document.querySelector('#instagram-embed');
+  const frame = document.createElement('iframe');
+
+  frame.title = 'Reel Instagram de MLA Fitness Training';
+  frame.src = 'https://www.instagram.com/reel/DVUWirRDaES/embed';
+  frame.width = '400';
+  frame.height = '711';
+  frame.loading = 'lazy';
+  frame.allowFullscreen = true;
+  frame.referrerPolicy = 'strict-origin-when-cross-origin';
+
+  embed.replaceChildren(frame);
+});
